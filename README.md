@@ -31,5 +31,5 @@ services:
 ```
 
 ## Results
-- after progamming, users visit website http://127.0.0.1:8080/channel (get)
-![image 1]()
+- after progamming, users visit website http://127.0.0.1:8080/channel (get). user can see the image listed below.
+![image 1](https://raw.githubusercontent.com/niuniu268/Rest-CRUD-Sockets/master/img/Screenshot1.png)
