@@ -13,7 +13,7 @@ REST API endpoints
 2. /sub/chat/ ← en (eller flera) socket där du ansluter mot en specifik kanal (via id-värde) och lyssnar på nya meddelanden från kanalen samt kan skicka tillbaka svar via samma socket. ***
 
 ## Preparations
-1. Docker
+1. Docker compose file
 ```
 version: '3'
 services:
@@ -29,3 +29,7 @@ services:
     ports:
       - "3306:3306"
 ```
+
+## Results
+- after progamming, users visit website http://127.0.0.1:8080/channel (get)
+![image 1]()
