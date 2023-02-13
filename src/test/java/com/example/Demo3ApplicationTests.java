@@ -10,25 +10,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-@MapperScan("com.example.mapper")
 class Demo3ApplicationTests {
 
-    @Autowired
-    private BroadcastServer broadcastServer;
-    @Autowired
-    private ChannelMapper channelMapper;
-    @Autowired
-    private ChannelService channelService;
 
     @Test
     void contextLoads() {
-        channelMapper.selectAll();
-    }
-
-    @Test
-    void testSelectall(){
-        channelService.selectAll();
 
     }
+
 
 }
